@@ -35,22 +35,27 @@ chmod +x program.rb
 ```
 ./shell.rb
 ```
-6. Run tests
+### Run tests
+
+
 ```
 rspec spec -f d
 ```
 
-7. Important files
-
+### Important files
+```
 lib/component_manager
-
+```
 Wraps all the operations
-
+```
 lib/component
+```
 A simple class that could potentially also include configurations settings for a command
-
+```
 spec/component_manager_spec
+```
 A set of identify test for component_manager
-
+```
 shell.rb
-The main program that runs the shell command 
+```
+The main program that runs the shell command
