@@ -1,5 +1,5 @@
 class Component
-    attr_accessor :dependencies
+    attr_accessor :name, :dependencies
 
     def initiliaze(name, dependencies = [])
         @name = name
@@ -10,7 +10,7 @@ class Component
         puts "Name: #{@name}"
 
         @dependencies.each do |component_name|
-            puts "#{component_name}"
+            puts component_name.to_s
         end
     end
 end
