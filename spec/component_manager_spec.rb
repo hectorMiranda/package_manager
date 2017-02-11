@@ -1,4 +1,4 @@
-require 'component'
+require 'component_manager'
 
 describe ComponentManager do
     before do
