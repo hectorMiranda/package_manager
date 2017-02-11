@@ -1,10 +1,10 @@
-Package Manager Code Challenge
+#Package Manager Code Challenge
 
 ##Getting Started
 ### Clone this repository
 
 ```
-git clone 
+git clone
 ```
 
 ### Set up RVM and create a gemset
@@ -33,7 +33,7 @@ chmod +x program.rb
 5. Run the application
 
 ```
-./component_manager.rb
+./shell.rb
 ```
 6. Run tests
 ```
